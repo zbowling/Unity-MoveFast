@@ -29,3 +29,9 @@ All of the actual project files are in Assets/Project. This folder includes all 
 The project includes v46 of the Oculus SDK, including the Interaction SDK. You can find the Interaction SDK in [Packages/com.oculus.integration.interaction](meta_004_unity/Packages/com.oculus.integration.interaction).
 
 To run the sample, open the project folder in *Unity 2022.3.22f1* or newer and load the [Assets/MoveFast/Scenes/MoveFast.unity](meta_004_unity/Assets/MoveFast/Scenes/MoveFast.unity) scene.
+
+## AI coding agents
+
+This repo is wired up for AI coding agents — `AGENTS.md`, `.vscode/extensions.json`, `.mcp.json`, `.cursor/rules/`, and a few client-specific dotfiles surface the **Meta Horizon** VS Code/Cursor extension, the `hzdb` MCP server, and the Meta Quest skill set automatically.
+
+Full toolchain, including Unity skills and per-client install instructions: [github.com/meta-quest/agentic-tools](https://github.com/meta-quest/agentic-tools).
